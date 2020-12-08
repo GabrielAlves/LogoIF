@@ -38,30 +38,20 @@ class LogoIF:
         geometria.desenhar_circulo(self.cursor, self.raio_circulo, self.cor_borda_circulo, self.cor_fundo_circulo)
 
     def desenhar_primeira_pilha_quadrados(self):
-        self.posicionar_cursor_na_primeira_pilha_quadrados()
+        self.levar_cursor_para_posicao(self.posicao_inicial_primeira_pilha_quadrados)
         self.desenhar_pilha_quadrados(self.numero_quadrados_primeira_pilha, self.intercalar_quadrados_primeira_pilha)
 
     def desenhar_segunda_pilha_quadrados(self):
-        self.posicionar_cursor_na_segunda_pilha_quadrados()
+        self.levar_cursor_para_posicao(self.posicao_inicial_segunda_pilha_quadrados)
         self.desenhar_pilha_quadrados(self.numero_quadrados_segunda_pilha, self.intercalar_quadrados_segunda_pilha)
 
     def desenhar_terceira_pilha_quadrados(self):
-        self.posicionar_cursor_na_terceira_pilha_quadrados()
+        self.levar_cursor_para_posicao(self.posicao_inicial_terceira_pilha_quadrados)
         self.desenhar_pilha_quadrados(self.numero_quadrados_terceira_pilha, self.intercalar_quadrados_terceira_pilha)
 
-    def posicionar_cursor_na_primeira_pilha_quadrados(self):
+    def levar_cursor_para_posicao(self, posicao):
         self.cursor.penup()
-        self.cursor.setposition(self.posicao_inicial_primeira_pilha_quadrados)
-        self.cursor.pendown()
-
-    def posicionar_cursor_na_segunda_pilha_quadrados(self):
-        self.cursor.penup()
-        self.cursor.setposition(self.posicao_inicial_segunda_pilha_quadrados)
-        self.cursor.pendown()
-
-    def posicionar_cursor_na_terceira_pilha_quadrados(self):
-        self.cursor.penup()
-        self.cursor.setposition(self.posicao_inicial_terceira_pilha_quadrados)
+        self.cursor.setposition(posicao)
         self.cursor.pendown()
 
     def descer_ate_a_base_do_quadrado_inferior(self):

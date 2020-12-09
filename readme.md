@@ -1,6 +1,6 @@
 # logo-if
 
-Desenha a logo do Instituto Federal(IF) através do módulo *turtle* da linguagem *Python*
+Desenha a logo do Instituto Federal(IF) através do módulo *turtle* da linguagem *Python*. Eu comecei esse projeto como uma simples brincadeira, mas que logo acabou se tornando um ótimo desafio e eu diria que até uma homenagem pessoal para a instituição onde estudei. Meu maior desafio foi programar o desenho para ser flexível diante alguns tipos de modificações, tais como cores, dimensões, quantidade de quadrados, e etc.
 
 ## Como usar
 

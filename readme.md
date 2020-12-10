@@ -4,7 +4,7 @@ Desenha a logo do Instituto Federal(IF) através do módulo *turtle* da linguage
 
 ## Como usar
 
-1. Clone o repositório : `git clone https://github.com/gabr-01/logo-if.git`
+1. Clone o repositório : `git clone https://github.com/gabrielaves/logo-if.git`
 2. Execute o arquivo *logo_if.py* e a logo padrão será automaticamente desenhada.
 3. Para instruções de como customizar a logo, veja a seção de screenshots.
 

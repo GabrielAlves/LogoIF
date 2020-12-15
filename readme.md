@@ -1,4 +1,4 @@
-# logo-if
+# LogoIF
 
 Desenha a logo do Instituto Federal(IF) através do módulo *turtle* da linguagem *Python*.
 

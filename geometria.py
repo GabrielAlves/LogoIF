@@ -23,4 +23,5 @@ def desenhar_arco(turtle, raio, angulo, cor_borda, cor_fundo):
     desenhar_polilinha(turtle, comprimento_lado, numero_lados, angulo_lado, cor_borda, cor_fundo)
 
 def desenhar_circulo(turtle, raio, cor_borda, cor_fundo):
-    desenhar_arco(turtle, raio, 360, cor_borda, cor_fundo)
+    angulo = 360
+    desenhar_arco(turtle, raio, angulo, cor_borda, cor_fundo)

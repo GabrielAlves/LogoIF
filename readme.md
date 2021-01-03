@@ -18,7 +18,7 @@ Como estou usando python, eu segui orientações do [PEP-8](https://www.python.o
 
 Apenas clone o repositório:
 
-`git clone https://github.com/GabrielAlves/logo-if.git`
+`git clone https://github.com/GabrielAlves/LogoIF.git`
 
 ## Como usar
 
